@@ -100,6 +100,26 @@ button
 	display: block;
 	margin-left: 850px;
 }
+#btnno
+{
+	background-color: red;
+	height: 45px;
+     width: 100px;
+     color: white;
+	display: block;
+	margin-left: 300px;
+}
+#btnsi
+{
+	position: relative;
+	bottom: 45px;
+	background-color: darkgreen;
+	height: 45px;
+     width: 100px;
+     color: white;
+	display: block;
+	margin-left: 800px;
+}
 #link
 {
 	color: red;
@@ -185,8 +205,9 @@ button
 }
 #editar
 {
-margin-left: 77px;
-	 margin-right:  10px;}
+     margin-left: 110px;
+	 margin-right:  10px;
+}
 #delete
 {
 	margin-right: 10px;
