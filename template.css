@@ -75,10 +75,9 @@ button
 {	
 	background-color: #FF8C00;
 	height: 60px;
-     width: 1360px;
+     width: 346%;
      position: relative;
      bottom: 10px;
-     position: relative;
      right: 7px;
      margin-top: 7px;
 
@@ -142,13 +141,13 @@ button
 #botoninicio
 {
 	border: dashed;
-	height:  40px;
-	padding: 5px 80px;
+	height:  50px;
+	padding: 1% 5%;
 
 }
 #li
 {   
-   margin-left: 250px;
+   margin-left: 20%;
    position: relative;
    top: 5px;
 }
