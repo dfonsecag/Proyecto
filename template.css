@@ -24,7 +24,7 @@ section
 	float: right;
 	width: 110px;
 	height: 35px;
-	margin-right: 60px;
+	margin-right: 10%;
 	margin-top: 60px;
 	color: white;
 	display: block;
@@ -113,17 +113,17 @@ button
 {
 	position: relative;
 	bottom: 45px;
-	background-color: darkgreen;
+	background-color: #00FF00;
 	height: 45px;
      width: 100px;
      color: white;
 	display: block;
-	margin-left: 800px;
+	margin-left:70%;
 }
 #link
 {
 	color: red;
-	margin-left: 245px;
+	margin-right: 40%;
 	margin-top: 20px;
 	font-size: 18pt;
 	position: relative;
@@ -177,7 +177,7 @@ button
 }
 #info
 {
-		 padding: 5px 150px;
+		 padding: 5px 90px;
 		 
 }
 #actions
