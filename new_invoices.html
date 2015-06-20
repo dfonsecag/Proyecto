@@ -39,8 +39,8 @@ NEW INVOICE
 </section>
   
 <form>
-<label for="provincia">Provincia : </label>
-<input id="nombre_prov" name="nombre_prov" type="text" list="provincias" />
+<p id="labelperson">CLIENT</p>
+<input id= "newperson"  type="text" list="provincias" />
 <datalist id="provincias">
     <option value="Diego">
     <option value="Bladimir">
@@ -48,18 +48,56 @@ NEW INVOICE
     <option value="Miguel">
 </datalist>
 </form>
-<p id="labelperson">FIRST NAME</p>
-<input type="date" name="fecha">
-<p id="labelperson">LAST NAME</p>
-<INPUT id= "newperson";TYPE="text" SIZE="25" placeholder="LAST NAME">
-<p id="labelperson">ID </p>
-<INPUT id= "newperson";TYPE="text" SIZE="25" placeholder="ID">
-  <p id="labelperson">TELEPHONE </p>
-  <INPUT id= "newperson";TYPE="tel" SIZE="8" maxlength="8" placeholder="TELEPHONE">
+<p id="labelperson">DATE</p>
+<input id= "newperson" type="date" name="fecha">
+<p id="labelperson">DESCRIPION</p>
+<INPUT id= "newperson";TYPE="textarea" SIZE="25" placeholder="DESCRIPTION">
+  <p id="labelperson">MONTO </p>
+ <script type="text/javascript">
+function GetKey(e) {
+   var keynum;
+   if(window.event) { keynum = e.keyCode; }
+   else if(e.which) { keynum = e.which; }
+   return keynum;
+}
+
+function GetChar(ev) {
+   var ev = ev || window.event;
+   var chr = ev.charCode || ev.keyCode;
+   return String.fromCharCode(chr);
+}
+
+function ValidarTecla(ev) {
+   var key = GetKey(ev);
+   if (key > 63) {
+      var chr = GetChar(ev);
+      if (/[\d|\.|,]/.test(chr)) {
+         return true;
+      } else {
+         return false;
+      }
+   } else {
+      return true;
+   }
+}
+
+function ValidarTexto(ele) {
+   var valor = ele.value;
+   if (/^\d[,|\.]\d*/.test(valor) == false) {
+   } else {
+      if ((parseFloat(valor) < 0) || (parseFloat(valor) > 5)) {
+      }
+   }
+}
+</script>
+</head>
+<body>
+<input id= "newperson" type="text"  onKeypress="return ValidarTecla(event);" onBlur="ValidarTexto(this);" />
+
 
 <section id="menunewclient">
 
-       <a id= "link" href="client_administration.html">Cancel</a>
+       <a id= "link" href="invoices.html">Cancel</a>
        <button id="btnnewclietn">
       SAVE
       </button>

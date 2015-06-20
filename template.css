@@ -62,13 +62,14 @@ section
 }
 #newperson{
 	 size:30 ;
-	  font-size: 15pt;
+	  font-size: 16pt;
 	  margin-left: 35%;
 
 }
 #labelperson
 {
 	margin-left: 35%;
+	font-size: 17pt;
 }
 #b1{
 	size:10 ;
