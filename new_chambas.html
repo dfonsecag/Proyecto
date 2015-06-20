@@ -36,9 +36,16 @@ INVOICES
 NEW CHAMBAS
 </button>
 </a>
-<h2 name ="text2"align="center" text="Factura guardada con éxito.">
+<span id="guardar">
 
-</h2>
+</span>
+<script type="text/javascript">
+ function Cambio()
+        {
+          var l1 = document.getElementById("guardar")
+          l1.innerText="CHAMBA CREADA GUARDADA CON ÉXITO."
+        }
+</script>
 </section>
 <form>
 <p id="labelperson">CLIENT</p>
@@ -59,7 +66,7 @@ NEW CHAMBAS
 <section id="menunewclient">
 
        <a id= "link" href="chambas.html">Cancel</a>
-       <a style="text-decoration:none" href="invoice_guardado.html"><button id="btnnewclietn">
+       <a style="text-decoration:none" href="invoice_guardado.html" onclick="Cambio()"><button id="btnnewclietn">
       SAVE
       </button></a>
        
