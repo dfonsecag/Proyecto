@@ -36,9 +36,16 @@ INVOICES
 NEW INVOICE
 </button>
 </a>
-<h2 name ="text2"align="center" text="Factura guardada con éxito.">
+<span id="guardar">
 
-</h2>
+</span>
+<script type="text/javascript">
+ function Cambio()
+        {
+          var l1 = document.getElementById("guardar")
+          l1.innerText="FACTURA GUARDADA CON ÉXITO."
+        }
+</script>
 </section>
   
 <form>
@@ -101,9 +108,10 @@ function ValidarTexto(ele) {
 <section id="menunewclient">
 
        <a id= "link" href="invoices.html">Cancel</a>
-       <a style="text-decoration:none" href="invoice_guardado.html"><button id="btnnewclietn">
+
+      <button id="btnnewclietn" onclick="Cambio()">
       SAVE
-      </button></a>
+      </button>
        
 </section>
 
