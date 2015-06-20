@@ -18,6 +18,21 @@ section
 	 margin: 0 auto;  
 
 }
+#login
+{
+	border-radius: 10px;
+	border-color: #F0E68C;
+
+}
+#log
+{
+	border-radius: 10px;
+	height: 40px;
+	position: relative;
+	bottom: 15px;
+	text-align: center;
+	color: #FFFFFF;
+}
 #NewClient
 {
 	background-color: #FFD700;
@@ -41,7 +56,9 @@ section
 }
 #text{
 	 size:10 ;
-	  font-size: 20pt;
+	  font-size: 18pt;
+	  margin-left: 20px;
+	  margin-right: 350px;
 }
 #newperson{
 	 size:30 ;
@@ -58,6 +75,7 @@ section
     font-size: 20pt;
    background-color: #FF8C00;
    color: black;
+
 }
 header
 {
