@@ -207,6 +207,7 @@ button
 }
 #inf
 {
+	text-align: center;
 		 padding: 5px 1px;
 		 
 }
@@ -255,8 +256,7 @@ button
 }
 #editar
 {
-     margin-left: 110px;
-	 margin-right:  10px;
+     margin-left: 40px;
 }
 #delete
 {
