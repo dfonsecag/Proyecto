@@ -210,6 +210,14 @@ button
 		 padding: 5px 1px;
 		 
 }
+#guardar
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	 margin-left: 30px;
+	color: green;
+	font-size: 23pt;
+}
 #fullnam
 {
 	

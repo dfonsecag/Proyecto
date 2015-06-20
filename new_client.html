@@ -36,6 +36,16 @@ INVOICES
 NEW CLIENT
 </button>
 </a>
+<span id="guardar">
+
+</span>
+<script type="text/javascript">
+ function Cambio()
+        {
+          var l1 = document.getElementById("guardar")
+          l1.innerText="CLIENTE GUARDADO CON ÉXITO."
+        }
+</script>
 </section>
   
 
@@ -51,7 +61,7 @@ NEW CLIENT
 <section id="menunewclient">
 
        <a id= "link" href="client_administration.html">Cancel</a>
-       <button id="btnnewclietn">
+       <button id="btnnewclietn" onclick="Cambio()">
       SAVE
       </button>
 </section>
