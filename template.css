@@ -205,9 +205,21 @@ button
 	text-decoration: 0px;
 	outline: 0;
 }
+#inf
+{
+		 padding: 5px 1px;
+		 
+}
+#fullnam
+{
+	
+	 padding: 5px 20px;
+	 text-align: center;
+}
 #info
 {
-		 padding: 5px 90px;
+	text-align: center;
+	padding: 5px 50px;
 		 
 }
 #actions
