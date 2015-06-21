@@ -102,7 +102,7 @@ button
 #menu
 {	
 	background-color: #FF8C00;
-	height: 60px;
+	height: 50px;
      width: 100%;
      position: relative;
      bottom: 10px;
@@ -113,10 +113,32 @@ button
 #botoninicio
 {
 	border: dashed;
-	height:  50px;
+	height:  40px;
 	padding: 1% 3%;
 	margin-left: 10px;
+	position: relative;
+	bottom: 5px;
+	color: #FFFFFF;	
+}
+#botoninic
+{
+	border: dashed;
+	height:  40px;
+	padding: 1% 3%;
+	margin-left: 10%;
+	position: relative;
+	bottom: 5px;
 
+}
+#imgmenu
+{
+	border-color: black;
+	border:  5px;
+	margin-left: 1%;
+	 width: 35px;
+	 height: 35px;
+	 position: relative;
+   top: 5px;
 }
 #menunewclient
 {
@@ -129,9 +151,7 @@ button
 #li
 {  
    font-size: 25pt;
-   margin-left: 35%;
-   position: relative;
-   top: 5px;
+   margin-left: 25%;
 }
 #btnnewclietn
 {
@@ -180,19 +200,6 @@ button
      width: 100%;
       margin-bottom: 100px;
       margin-top: 120;
-}
-
-
-
-#imgmenu
-{
-	border-color: black;
-	border:  5px;
-	margin-left: 30px;
-	 width: 35px;
-	 height: 35px;
-	 position: relative;
-   top: 9px;
 }
 
 #datos
