@@ -254,8 +254,7 @@ button
 	font-size: 23pt;
 }
 #fullnam
-{
-	
+{	
 	 padding: 5px 20px;
 	 text-align: center;
 }
@@ -272,10 +271,9 @@ button
 }
 #fullname
 {
-	
-	 padding: 5px 245px;
+	text-align: center;
+	 padding: 5px 20px;
 	 position: relative;
-	 left: 30px;
 }
 #fulltabla
 {
