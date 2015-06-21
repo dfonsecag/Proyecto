@@ -85,7 +85,7 @@ section
 	text-align: center;
 	position: relative;
 	bottom: 100px;
-	font-size: 25pt;
+	font-size: 18pt;
 }
 header
 {
@@ -307,7 +307,7 @@ overflow: hidden;
 border: 5px outset;
 width: 120px;
 height: 120px; 
-margin: 150px;
+margin: 9%;
 }
 #imgclientes {
 border: 5px outset;
