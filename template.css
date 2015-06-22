@@ -45,6 +45,7 @@ section
 	display: block;
 	position: relative;
 	bottom: 20px;
+	cursor: pointer;
 }
 #client
 {
@@ -118,7 +119,8 @@ button
 	margin-left: 10px;
 	position: relative;
 	bottom: 5px;
-	color: #FFFFFF;	
+	color: #FFFFFF;
+	cursor: pointer;	
 }
 #botoninic
 {
@@ -128,6 +130,7 @@ button
 	margin-left: 10%;
 	position: relative;
 	bottom: 5px;
+	cursor: pointer;
 
 }
 #botonclien
@@ -139,6 +142,7 @@ button
 	position: relative;
 	bottom: 5px;
 	color: #FFFFFF;	
+	cursor: pointer;
 }
 #botonchamba
 {
@@ -149,6 +153,7 @@ button
 	position: relative;
 	bottom: 5px;
 	color: #FF8C00;
+	cursor: pointer;
 }
 #imgmenu
 {
@@ -181,6 +186,7 @@ button
      color: white;
 	display: block;
 	margin-left: 60%;
+	cursor: pointer;
 }
 #btnno
 {
@@ -190,6 +196,7 @@ button
      color: white;
 	display: block;
 	margin-left: 300px;
+	cursor: pointer;
 }
 #btnsi
 {
@@ -201,6 +208,7 @@ button
      color: white;
 	display: block;
 	margin-left:70%;
+	cursor: pointer;
 }
 
 #link
@@ -211,6 +219,10 @@ button
 	font-size: 18pt;
 	position: relative;
 	top: 35px;
+}
+#l
+{
+	text-decoration:none;x
 }
 #divcliente
 {
@@ -252,6 +264,7 @@ button
 	 margin-left: 30px;
 	color: green;
 	font-size: 23pt;
+	cursor: pointer;
 }
 #fullnam
 {	
@@ -289,10 +302,12 @@ button
 #editar
 {
      margin-left: 40px;
+     text-decoration:none;
 }
 #delete
 {
 	margin-right: 10px;
+	text-decoration:none;
 }
 #img {
 border: 2px solid grey;
