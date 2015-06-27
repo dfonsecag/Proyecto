@@ -133,6 +133,21 @@ button
 	cursor: pointer;
 
 }
+#home
+{
+	position: relative;
+	top: 5px;
+	margin-left: 5px;
+	width: 35px;
+	height: 35px;
+}
+#labelhome
+{
+	position: relative;
+	bottom: 3px;
+	font-size: 15pt;
+	margin-left: 3px;
+}
 #botonclien
 {
 	border: dashed;
@@ -176,7 +191,7 @@ button
 #li
 {  
    font-size: 25pt;
-   margin-left: 25%;
+   margin-left: 19%;
 }
 #btnnewclietn
 {

@@ -12,6 +12,8 @@
 </head> 
 <body> 
 <section id="menu">
+  <a style="text-decoration:none" href="dashboard.html"><img id="home" src="C:\Users\Diego G\Documents\GitHub\Proyecto\images\home.png"></a>
+  <span id="labelhome">HOME</span>
 <a style="text-decoration:none" href="client_administration.html"><button id="botonclien"style="background-color: #FF8C00" >
 CLIENTS
 </button ></a>
@@ -38,37 +40,27 @@ INVOICES
 NEW CHAMBAS
 </button>
 </a>
-<span id="guardar">
-
-</span>
-<script type="text/javascript">
- function Cambio()
-        {
-          var l1 = document.getElementById("guardar")
-          l1.innerText="CHAMBA GUARDADA CON ÉXITO."
-        }
-</script>
 </section>
 <form>
 <p id="labelperson">CLIENT</p>
-<input id= "newperson"  type="text" list="provincias" />
+<input placeholder="CLIENT" id= "newperson"  type="text" list="provincias" />
 <datalist id="provincias">
     <option value="Diego">
     <option value="Bladimir">
     <option value="Miguel">
 </datalist>
 </form>
-<p id="labelperson">DESCRIPION WORK</p>
+<p id="labelperson">DESCRIPTION WORK</p>
 <INPUT id= "newperson";TYPE="textarea" SIZE="25" placeholder="DESCRIPTION">
 <p id="labelperson">DATE</p>
 <input id= "newperson" type="date" name="fecha">
-<p id="labelperson">NOTAS</p>
-<INPUT id= "newperson";TYPE="textarea" SIZE="25" placeholder="NOTAS">
+<p id="labelperson">NOTES</p>
+<INPUT id= "newperson";TYPE="textarea" SIZE="25" placeholder="NOTES">
 
 <section id="menunewclient">
 
        <a id= "link" href="chambas.html">Cancel</a>
-      <button id="btnnewclietn" onclick="Cambio()">
+      <button id="btnnewclietn">
       SAVE
       </button>
        
