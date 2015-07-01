@@ -316,13 +316,14 @@ button
 }
 #editar
 {
-     margin-left: 40px;
+     margin-left: 20%;
      text-decoration:none;
+     text-align: center;
 }
 #delete
 {
-	margin-right: 10px;
 	text-decoration:none;
+	text-align: center;
 }
 #img {
 border: 2px solid grey;
